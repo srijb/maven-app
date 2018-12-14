@@ -3,6 +3,6 @@
         xmlns="http://java.sun.com/xml/ns/j2ee"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         version="2.4">
-    <display-name>test-webapp</display-name>
+    <display-name>my-app</display-name>
 
 </web-app>
