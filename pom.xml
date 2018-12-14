@@ -23,7 +23,8 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.2</version>
         <configuration>
-          <archive>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+			    <archive>
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
