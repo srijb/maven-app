@@ -23,7 +23,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.2</version>
         <configuration>
-           <warSourceDirectory>webapp</warSourceDirectory>
+           <webXml>src\webapp\WEB-INF\web.xml</webXml>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
